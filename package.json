@@ -1,0 +1,38 @@
+{
+  "name": "file-zip",
+  "version": "1.0.1",
+  "description": "The file folder compression, decompression of the compressed package",
+  "main": "index.js",
+  "scripts": {
+    "unzip": "node test/unzip.js",
+    "zipFolder": "node test/zip_folder.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenqf/file-zip.git"
+  },
+  "keywords": [
+    "node-zip",
+    "node-unzip",
+    "zip",
+    "unzip",
+    "file-zip",
+    "file-unzip",
+    "folder-zip",
+    "folder-unzip"
+  ],
+  "author": "chenqf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenqf/file-zip/issues"
+  },
+  "homepage": "https://github.com/chenqf/file-zip#readme",
+  "dependencies": {
+    "decompress": "^4.0.0",
+    "decompress-unzip": "^4.0.1",
+    "files-tree": "^1.0.4",
+    "node-native-zip": "^1.1.0",
+    "unzip": "^0.1.11"
+  }
+}
